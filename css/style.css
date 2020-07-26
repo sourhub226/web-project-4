@@ -71,11 +71,12 @@ header {
 .heading-div h1{
     font-size: 35px;
     letter-spacing: 2px;
+
 }
 
 .nav-menu a{
     color: #e5ebf8;
-    padding: 31px 30px;
+    padding: 30px 30px;
     font-size: 21px;
     transition: 0.3s ease-in-out;
 }
@@ -107,7 +108,7 @@ header {
     letter-spacing: 2px;
 }
 
-.header-section {
+.header-section p{
     font-size: 23px;
     word-spacing: 2px;
     letter-spacing: 1px;

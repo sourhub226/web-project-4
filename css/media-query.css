@@ -2,22 +2,172 @@
         Media Query
 ------------------------------*/
 
-@media all and (max-width: 991px) {
+@media all and (max-width: 1440px) {
+    
+    .personal-info h3{
+        width: 93%;
+        margin: 15px auto;
+    }
+    .personal-info p{
+        width: 93%;
+    }
+    .contact form{
+        width: 93%;
+    }
+}
+
+@media all and (max-width: 990px) {
+    
+    .heading-div h1{
+        font-size: 30px;
+    }
+    .nav-menu a{
+        padding:27px 15px;
+    }
+    .header-section{
+        height:55vh;
+    }
+    .header-section h2{
+        font-size: 50px;
+    }
+    .header-section p{
+        font-size: 20px;
+    }
+    .personal-info img{
+        width: 30vh;
+    }
+    .personal-info h2{
+        font-size: 32px;
+    }
+    .personal-info h3{
+        font-size: 26px;
+    }
+    .personal-info p{
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .ability h3{
+        font-size: 22px;
+    }
+
+    .ability p{
+        font-size: 16px;
+    }
+    .works{
+        padding: 60px 0;
+    }
+    .works h2{
+        font-size: 35px;
+    }
+    
+    .works-gallery {
+        justify-content: space-around;
+    }
+    .works-gallery img{
+        width: 48%;
+    }
+    .contact{
+        padding: 60px 0;
+    }
+    .contact h2{
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 905px){
+    
+    .container{
+        max-width: 650px;
+    }
+    .abilities{
+        flex-direction: column;
+    }
+    .ability{
+        margin: 20px
+    }
+    .abilities p{
+        margin-top: 15px;
+    }
+    
+    footer p{
+        font-size: 15px;
+    }
+}
+
+
+@media all and (max-width: 601px){
+    
+    .heading-div{
+        flex-direction: column;
+    }
+    .heading-div h1{
+        padding: 10px 0;
+    }
+    .nav-menu{
+        margin-top: 18px;
+    }
+    .nav-menu a{
+        padding: 20px 15px;
+    }
+    .personal-info img{
+        filter: none;
+        border-radius: 50%;
+    }
+
+}
+
+@media all and (max-width: 481px){
+    
+    .nav-menu a{
+        padding: 20px 10px;
+    }
+    .header-section h2{
+        font-size: 45px;
+    }
+    .header-section p{
+        font-size: 18px;
+    }
+    .personal-info h2{
+        font-size: 30px;
+    }
+    .personal-info h3{
+        font-size: 24px;
+    }
+    .works h2{
+        font-size: 30px;
+    }
+    .works-gallery img{
+        width: 97%;
+    }
+    .contact h2{
+        font-size: 30px;
+    }
     
 }
 
 
+@media all and (max-width: 375px){
+    
+    .nav-menu a{
+        font-size:18px;
+    }
+    .header-section{
+        text-align: center;
+    }
+    .header-section h2{
+        font-size: 35px;
+    }
+    .header-section p{
+        font-size: 15px;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
+@media all and (max-width: 340px){
+    
+    .nav-menu a{
+        padding: 20px 7px
+    }
+        
+}
 
 
