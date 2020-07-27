@@ -72,12 +72,10 @@
     .contact h2{
         font-size: 35px;
     }
-}
-
-@media all and (max-width: 905px){
+    
     
     .container{
-        max-width: 650px;
+        max-width: 750px;
     }
     .abilities{
         flex-direction: column;
@@ -90,7 +88,7 @@
     }
     
     footer p{
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
@@ -109,10 +107,12 @@
     .nav-menu a{
         padding: 20px 15px;
     }
+/*
     .personal-info img{
         filter: none;
         border-radius: 50%;
     }
+*/
 
 }
 
